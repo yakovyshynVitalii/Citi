@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  align-items: flex-end;
+
+  background-image: url("@/assets/img/loginPage/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.main .container {
+  width: 100%;
+  padding-top: 215px;
+  padding-bottom: 70px;
+}
+
+.main .title-2 {
+  font-size: min(55px, 4.7169vw);
+  line-height: min(86px, 7.3756vw);
+}
+
+/* Tablet */
+
+@media screen and (max-width: 992px) {
+  .main .title-2 {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 86px;
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+  .main .title-2 {
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .main .title-2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+  }
+}

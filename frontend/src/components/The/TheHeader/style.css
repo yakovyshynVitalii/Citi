@@ -1,0 +1,17 @@
+.header__top {
+  height: 53px;
+  background: #333333;
+}
+
+.header__bottom {
+  height: 96px;
+  background: linear-gradient(180deg, #00afed 0%, #00569a 100%);
+}
+
+.header_bottom .container {
+  width: 100%;
+}
+
+.header__bottom .container .logo {
+  padding: 15px 0;
+}

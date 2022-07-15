@@ -1,0 +1,44 @@
+.btn {
+  padding: 8px 28px;
+  border: 2px solid #0076c0;
+  background-color: #0076c0;
+  user-select: none;
+  cursor: pointer;
+
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.btn.text-2 {
+  color: white;
+}
+
+.btn.-green {
+  border: 2px solid #42b883;
+  background-color: #42b883;
+}
+
+.btn.-red {
+  border: 2px solid #d60000;
+  background-color: #d60000;
+}
+
+.btn.text-2 {
+  line-height: 19px;
+}
+
+@media screen and (hover: hover) {
+  .btn:hover {
+    background-color: white;
+    color: #0076c0;
+  }
+
+  .btn.-green:hover {
+    background-color: white;
+    color: #42b883;
+  }
+
+  .btn.-red:hover {
+    background-color: white;
+    color: #d60000;
+  }
+}

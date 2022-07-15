@@ -5,7 +5,15 @@
   line-height: 1;
 }
 
+:root {
+  --white: #fffff;
+  --grey: #333333;
+  --blue: #0076c0;
+  --red: #d60000;
+}
+
 .container {
-  max-width: 1166px;
+  max-width: 1196px;
+  padding: 0 15px;
   margin: 0 auto;
 }

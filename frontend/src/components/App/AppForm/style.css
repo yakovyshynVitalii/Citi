@@ -1,0 +1,37 @@
+.form {
+  display: block;
+  width: 100%;
+  max-width: 481px;
+  padding: 40px 30px 17px 30px;
+  background: #ffffff;
+}
+
+.form .btn {
+  width: 100%;
+  padding: 12px 0;
+}
+
+.form a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.form .forgot-pass {
+  padding: 20px 0 23px 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #056dae;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 992px) {
+  .form {
+    padding: 40px 0 17px 0px;
+  }
+}

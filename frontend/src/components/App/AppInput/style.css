@@ -1,0 +1,49 @@
+.input-block {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  margin: 20px 0;
+}
+
+.input-block .text-2 {
+  font-weight: 300;
+  padding-bottom: 8px;
+}
+
+.input-block input {
+  width: 100%;
+  height: 53px;
+
+  padding: 0 15px;
+  background: #ffffff;
+  border: 1px solid #9a9a9a;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  transition: 0.4s;
+}
+
+.input-block input.-error {
+  border: 1px solid #d60000;
+}
+
+.input-block input:focus {
+  outline: none;
+  border: 1px solid #101010;
+}
+
+.input-block .error-message {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  color: #d60000;
+}
+
+.input-block .error-message svg {
+  margin-right: 10px;
+}
