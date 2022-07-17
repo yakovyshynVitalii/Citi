@@ -1,0 +1,41 @@
+.add-task-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.add-task-block__input-box {
+  width: 70%;
+}
+
+.add-task-block__btn-box {
+  margin-top: 33px;
+  padding-left: 15px;
+}
+
+.add-task-block__btn-box .btn {
+  height: 53px;
+}
+
+/* Tablet */
+
+@media screen and (max-width: 992px) {
+  .add-task-block {
+    flex-direction: column;
+  }
+
+  .add-task-block__input-box {
+    width: 100%;
+  }
+
+  .add-task-block__btn-box {
+    margin-top: 10px;
+  }
+
+  .main-block__list-wrapper h2 {
+    font-size: 32px;
+    margin-top: 30px;
+  }
+}

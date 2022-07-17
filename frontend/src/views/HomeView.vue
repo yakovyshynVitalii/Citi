@@ -1,7 +1,9 @@
 <template>
-  <div>
-    <h1>Home page</h1>
+  <div class="home-page">
+    <mainBlock />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import mainBlock from "@/components/page/HomePage/mainBlock";
+</script>

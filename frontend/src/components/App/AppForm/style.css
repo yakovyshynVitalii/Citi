@@ -28,6 +28,14 @@
   color: #056dae;
 }
 
+.form-error {
+  color: red;
+}
+
+.form-error span {
+  margin-right: 5px;
+}
+
 /* Tablet */
 
 @media screen and (max-width: 992px) {
